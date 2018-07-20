@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #96C0CE;
+}
+
+.borderbox {
+    border: 2px solid black;
+    margin: 2px;
+    background-color: #BEB9B5;
+}
+
+h5 {
+    color: #c25b56
+}
+
+h1 {
+    color: #c25b56;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav > a {
+    width: 30px;
+}
+
+a > img {
+    width: 100%;
+}
+
+.calendar {
+    display: flex;
+}
+
+.calendar1 {
+    flex: 1;
+}
+
+.calendar2 {
+    flex: 1;
+}
+
+
+.search {
+    display: flex;
+}
+
+.search * {
+    margin: 0;
+}
+
+.messages {
+    display: flex;
+}
+
+.messages > p {
+    font-size: 0.6em;
+}
+
+.profiles {
+    display: flex;
+}
+
+@media only screen and (min-width:479px) {
+    .calendar {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        flex: 4;
+    }
+}
